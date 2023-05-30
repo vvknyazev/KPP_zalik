@@ -1,0 +1,11 @@
+<app-form (circleAndPointsAdd)="addCircleAndPoints($event)"></app-form>
+<ion-card *ngFor="let circleAndPoints of data; let i = index">
+  <ion-card-header>
+    <ion-item *ngFor="let i of range(circleAndPoints.N)">
+      [{{i}}, 2];
+    </ion-item>
+    <ion-item>R: {{circleAndPoints.R}}</ion-item>
+  </ion-card-header>
+  <ion-card-content>
+  </ion-card-content>
+</ion-card>

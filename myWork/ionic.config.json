@@ -1,0 +1,7 @@
+{
+  "name": "myWork",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
